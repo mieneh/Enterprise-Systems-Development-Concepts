@@ -19,11 +19,11 @@ Website Quản lý học tập và giảng dạy tại trường THPT này là m
 - Cơ sở dữ liệu: MongoDB
 
 **Cài Đặt Và Chạy Code**
-- Terminal 1: Cài đặt Backend
+***Terminal 1: Cài đặt Backend***
 ```sh
 cd backend
 ```
-+ Cấu hình môi trường bằng cách truy cập .env
+- Cấu hình môi trường bằng cách truy cập .env
 ```sh
 MONGO_URI=mongodb://localhost:27017/<ten-database>
 ```
@@ -31,12 +31,12 @@ hoặc
 ```sh
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/<database-name>?retryWrites=true&w=majority
 ```
-+ Chạy chương trình
+- Chạy chương trình
 ```sh
 npm install
 npm start
 ```
-- Terminal 2: Cài đặt Frontend
+***Terminal 2: Cài đặt Frontend***
 ```sh
 cd frontend
 npm install
