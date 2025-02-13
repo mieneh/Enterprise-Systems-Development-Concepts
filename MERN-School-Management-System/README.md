@@ -19,6 +19,7 @@ Website Quản lý học tập và giảng dạy tại trường THPT này là m
 - Cơ sở dữ liệu: MongoDB
 
 **Cài Đặt Và Chạy Code**
+
 ***Terminal 1: Cài đặt Backend***
 ```sh
 cd backend
