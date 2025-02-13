@@ -22,14 +22,20 @@ Website Quản lý học tập và giảng dạy tại trường THPT này là m
 - Terminal 1: Cài đặt Backend
 ```sh
 cd backend
+```
++ Cấu hình môi trường bằng cách truy cập .env
+```sh
+MONGO_URI=mongodb://localhost:27017/<ten-database>
+```
+hoặc 
+```sh
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/<database-name>?retryWrites=true&w=majority
+```
++ Chạy chương trình
+```sh
 npm install
 npm start
 ```
-
-```sh
-MONGO_URL = mongodb+srv://quangloi01:quangloi01@cluster0.rbl18.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-```
-
 - Terminal 2: Cài đặt Frontend
 ```sh
 cd frontend
